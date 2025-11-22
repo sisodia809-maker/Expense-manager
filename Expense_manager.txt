@@ -1,0 +1,147 @@
+Python 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+
+============================================================== RESTART: C:/Users/sisod/OneDrive/Desktop/Expense_manager.py =============================================================
+--- Welcome to My Personal Finance CLI Tool ---
+
+--- Setting up Initial Categories ---
+Category 'Food' added successfully.
+Category 'Transport' added successfully.
+Category 'Housing/Rent' added successfully.
+Category 'Leisure' added successfully.
+
+--- Check: Categories we have available ---
+[(1, 'Food'), (3, 'Housing/Rent'), (4, 'Leisure'), (2, 'Transport')]
+Looks good! Moving on.
+
+--- Logging Some Transactions ---
+Expense of $25.50 logged under 'Food'.
+Expense of $5.20 logged under 'Transport'.
+Expense of $89.99 logged under 'Housing/Rent'.
+Expense of $15.00 logged under 'Leisure'.
+Expense of $12.99 logged under 'Food'.
+Error: Couldn't find the category 'Electronics'. Please verify the spelling or add it first.
+
+--- Current Expense Log Review ---
+
+==============================================================================================
+ID    | Cost       | Date         | Type            | Details                                 
+==============================================================================================
+5     | $12.99     | 2025-11-22   | Food            | Lunch at cafe near school               
+4     | $15.00     | 2023-11-21   | Leisure         | Concert tickets                         
+2     | $5.20      | 2023-11-21   | Transport       | Daily train ticket                      
+1     | $25.50     | 2023-11-20   | Food            | Big weekend food shop                   
+3     | $89.99     | 2023-11-18   | Housing/Rent    | Internet and electric bill              
+==============================================================================================
+
+--- Correcting Record ID 1 ---
+Record ID 1 successfully revised.
+
+--- 'Oops' Category Change for Record ID 3 ---
+Record ID 3 successfully revised.
+
+--- Log After Corrections ---
+
+==============================================================================================
+ID    | Cost       | Date         | Type            | Details                                 
+==============================================================================================
+5     | $12.99     | 2025-11-22   | Food            | Lunch at cafe near school               
+4     | $15.00     | 2023-11-21   | Leisure         | Concert tickets                         
+2     | $5.20      | 2023-11-21   | Transport       | Daily train ticket                      
+1     | $30.75     | 2023-11-20   | Food            | Corrected food receipt total after tip  
+3     | $89.99     | 2023-11-18   | Transport       | Internet and electric bill              
+==============================================================================================
+
+--- Deleting Duplicated Record ID 2 ---
+Successfully removed expense ID 2.
+Deletion failed: Expense ID 999 was not found.
+
+--- Final, Cleaned-Up Expense Report ---
+
+==============================================================================================
+ID    | Cost       | Date         | Type            | Details                                 
+==============================================================================================
+5     | $12.99     | 2025-11-22   | Food            | Lunch at cafe near school               
+4     | $15.00     | 2023-11-21   | Leisure         | Concert tickets                         
+1     | $30.75     | 2023-11-20   | Food            | Corrected food receipt total after tip  
+3     | $89.99     | 2023-11-18   | Transport       | Internet and electric bill              
+==============================================================================================
+
+============================================================== RESTART: C:/Users/sisod/OneDrive/Desktop/Expense_manager.py =============================================================
+--- Welcome to My Personal Finance CLI Tool ---
+
+--- Setting up Initial Categories ---
+Category 'Food' already exists. Skipping operation.
+Category 'Transport' already exists. Skipping operation.
+Category 'Housing/Rent' already exists. Skipping operation.
+Category 'Leisure' already exists. Skipping operation.
+
+--- Check: Categories we have available ---
+[(1, 'Food'), (3, 'Housing/Rent'), (4, 'Leisure'), (2, 'Transport')]
+Looks good! Moving on.
+
+--- Logging Some Transactions ---
+Expense of $25.50 logged under 'Food'.
+Expense of $5.20 logged under 'Transport'.
+Expense of $89.99 logged under 'Housing/Rent'.
+Expense of $15.00 logged under 'Leisure'.
+Expense of $12.99 logged under 'Food'.
+Error: Couldn't find the category 'Electronics'. Please verify the spelling or add it first.
+
+--- Current Expense Log Review ---
+
+==============================================================================================
+ID    | Cost       | Date         | Type            | Details                                 
+==============================================================================================
+10    | $12.99     | 2025-11-22   | Food            | Lunch at cafe near school               
+5     | $12.99     | 2025-11-22   | Food            | Lunch at cafe near school               
+9     | $15.00     | 2023-11-21   | Leisure         | Concert tickets                         
+7     | $5.20      | 2023-11-21   | Transport       | Daily train ticket                      
+4     | $15.00     | 2023-11-21   | Leisure         | Concert tickets                         
+6     | $25.50     | 2023-11-20   | Food            | Big weekend food shop                   
+1     | $30.75     | 2023-11-20   | Food            | Corrected food receipt total after tip  
+8     | $89.99     | 2023-11-18   | Housing/Rent    | Internet and electric bill              
+3     | $89.99     | 2023-11-18   | Transport       | Internet and electric bill              
+==============================================================================================
+
+--- Correcting Record ID 1 ---
+Record ID 1 successfully revised.
+
+--- 'Oops' Category Change for Record ID 3 ---
+Record ID 3 successfully revised.
+
+--- Log After Corrections ---
+
+==============================================================================================
+ID    | Cost       | Date         | Type            | Details                                 
+==============================================================================================
+10    | $12.99     | 2025-11-22   | Food            | Lunch at cafe near school               
+5     | $12.99     | 2025-11-22   | Food            | Lunch at cafe near school               
+9     | $15.00     | 2023-11-21   | Leisure         | Concert tickets                         
+7     | $5.20      | 2023-11-21   | Transport       | Daily train ticket                      
+4     | $15.00     | 2023-11-21   | Leisure         | Concert tickets                         
+6     | $25.50     | 2023-11-20   | Food            | Big weekend food shop                   
+1     | $30.75     | 2023-11-20   | Food            | Corrected food receipt total after tip  
+8     | $89.99     | 2023-11-18   | Housing/Rent    | Internet and electric bill              
+3     | $89.99     | 2023-11-18   | Transport       | Internet and electric bill              
+==============================================================================================
+
+--- Deleting Duplicated Record ID 2 ---
+Deletion failed: Expense ID 2 was not found.
+Deletion failed: Expense ID 999 was not found.
+
+--- Final, Cleaned-Up Expense Report ---
+
+==============================================================================================
+ID    | Cost       | Date         | Type            | Details                                 
+==============================================================================================
+10    | $12.99     | 2025-11-22   | Food            | Lunch at cafe near school               
+5     | $12.99     | 2025-11-22   | Food            | Lunch at cafe near school               
+9     | $15.00     | 2023-11-21   | Leisure         | Concert tickets                         
+7     | $5.20      | 2023-11-21   | Transport       | Daily train ticket                      
+4     | $15.00     | 2023-11-21   | Leisure         | Concert tickets                         
+6     | $25.50     | 2023-11-20   | Food            | Big weekend food shop                   
+1     | $30.75     | 2023-11-20   | Food            | Corrected food receipt total after tip  
+8     | $89.99     | 2023-11-18   | Housing/Rent    | Internet and electric bill              
+3     | $89.99     | 2023-11-18   | Transport       | Internet and electric bill              
+==============================================================================================
